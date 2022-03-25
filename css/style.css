@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#box{
+    width: 50%;
+    margin-top:20px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left:auto;
+
+}
+
+/* regola heder */
+header{
+    height: 50px;
+    background-color: rgb(245, 156, 215);
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* debug */
+    border: solid 2px blue;
+}
+
+/* regola footer */
+footer{
+    height: 25px;
+    background-color: blueviolet;
+}
+
+.centro{
+    float: left;
+    width: 100%;
+
+    /* debug */
+    height: 200px;
+    background-color: rgb(250, 228, 103);
+
+}
