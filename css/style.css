@@ -9,6 +9,7 @@
     display: table;
     clear: both;
 }
+
 #box{
     width: 50%;
     margin-top:20px;
@@ -31,6 +32,21 @@ header{
     border: solid 2px blue;
 }
 
+.row-due{
+
+    margin-bottom: 5px;
+
+    /* debug */
+    border: solid 2px blue;
+    background-color: blue;
+}
+
+.row-due::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* regola footer */
 footer{
     height: 25px;
@@ -44,5 +60,37 @@ footer{
     /* debug */
     height: 200px;
     background-color: rgb(250, 228, 103);
+
+}
+
+
+/* secondo blocco */
+.center2{
+    float: left;
+    width: 100%;
+
+     
+    /* debug */
+    height: 50px;
+    background-color: rgb(103, 184, 250);
+
+    
+}
+
+.colonna{ 
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.prima.colonna {
+    width: 30%;
+   
+
+   /* debug */
+   height: 300px;
+   background-color: rgb(103, 184, 250);
 
 }
